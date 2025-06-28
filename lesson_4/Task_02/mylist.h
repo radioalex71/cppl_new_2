@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 
 #include <iostream>
 
@@ -34,10 +34,10 @@ public:
         delete m_tail;
     }
 
-    //Проверка размер списка равен ли нулю или нет
+    //РџСЂРѕРІРµСЂРєР° СЂР°Р·РјРµСЂ СЃРїРёСЃРєР° СЂР°РІРµРЅ Р»Рё РЅСѓР»СЋ РёР»Рё РЅРµС‚
     bool Empty() { return m_size == 0; }
 
-    //Показать размер списка
+    //РџРѕРєР°Р·Р°С‚СЊ СЂР°Р·РјРµСЂ СЃРїРёСЃРєР°
     unsigned long Size() { return m_size; }
 
     void PushFront(int value)
