@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 
 template <class T>
@@ -40,14 +40,14 @@ public:
             delete[] _arr[i];
         }
         delete[] _arr;
-        std::cout << "Очистка таблицы\n";
+        std::cout << "РћС‡РёСЃС‚РєР° С‚Р°Р±Р»РёС†С‹\n";
     }
 
     T* operator[] (int index)
     {
         if (index < 0 || index >= _rows)
         {
-            throw std::out_of_range("Индекс вне таблицы\n");
+            throw std::out_of_range("РРЅРґРµРєСЃ РІРЅРµ С‚Р°Р±Р»РёС†С‹\n");
         }
         return _arr[index];
     };
@@ -56,14 +56,14 @@ public:
     {
         if (index < 0 || index >= _rows)
         {
-            throw std::out_of_range("Индекс вне таблицы\n");
+            throw std::out_of_range("РРЅРґРµРєСЃ РІРЅРµ С‚Р°Р±Р»РёС†С‹\n");
         }
         return _arr[index];
     };
 
     void get_size() const
     {
-        std::cout << "Таблица из " << _rows << " строк и " << _cols << " столбцов\n";
+        std::cout << "РўР°Р±Р»РёС†Р° РёР· " << _rows << " СЃС‚СЂРѕРє Рё " << _cols << " СЃС‚РѕР»Р±С†РѕРІ\n";
     };
 
 private:

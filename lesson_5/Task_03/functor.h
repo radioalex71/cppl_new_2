@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 #include <vector>
 
-class functor //создание класса functor
+class functor //СЃРѕР·РґР°РЅРёРµ РєР»Р°СЃСЃР° functor
 {
 public:
 	functor();

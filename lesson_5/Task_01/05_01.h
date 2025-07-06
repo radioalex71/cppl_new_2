@@ -1,13 +1,13 @@
-#pragma once
+п»ї#pragma once
 
 
-template <class T>//шаблонная функция возведения числа в квадрат
+template <class T>//С€Р°Р±Р»РѕРЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РІРѕР·РІРµРґРµРЅРёСЏ С‡РёСЃР»Р° РІ РєРІР°РґСЂР°С‚
 T quadro(T a)
 {
     return a * a;
 }
 
-template<class V>//шаблонная функция возведения вектора в квадрат
+template<class V>//С€Р°Р±Р»РѕРЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РІРѕР·РІРµРґРµРЅРёСЏ РІРµРєС‚РѕСЂР° РІ РєРІР°РґСЂР°С‚
 void quadro(std::vector<V>& b)
 {
     for (V& num : b)
@@ -16,7 +16,7 @@ void quadro(std::vector<V>& b)
     }
 }
 
-template<class W>//шаблонная функция вывода вектора в консоль
+template<class W>//С€Р°Р±Р»РѕРЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РІС‹РІРѕРґР° РІРµРєС‚РѕСЂР° РІ РєРѕРЅСЃРѕР»СЊ
 void print_vector(std::vector<W>& b) 
 {
     for (size_t i = 0; i < b.size(); ++i)
